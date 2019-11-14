@@ -221,7 +221,7 @@ img {
   .whoweare {
       background: #fff;
       width: 100%;
-      margin-bottom: 25px;
+      margin-bottom: 60px;
       text-align: center;
   }
 
@@ -277,6 +277,7 @@ img {
    .showcase-line .showcase-img img {
     width: 450px;
     height: 350px;
+    margin-top: 65px;
    }
    .space {
      width: 100%;
@@ -649,6 +650,7 @@ img {
     font-weight: 500;
     letter-spacing: 1px;
     font-family: Open Sans;
+    color: coral;
   }
 
   /* Fix Number */
@@ -809,8 +811,42 @@ img {
   /* footer */
   .footer {
     width: 100%;
-    height: 20vh;
     background: #ddd;
+    display: flex;
+  }
+
+  .footer .left-footer {
+    width: 400px;
+  }
+
+  .footer .right-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+  }
+
+  .footer .social-media {
+    width: 200px !important;
+    padding: 10px;
+    border: 10px solid #1ebea5;;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .footer .social-media i {
+    margin: 5px;
+  }
+
+  .footer .copy {
+    text-align: center;
+  }
+
+  .footer .dev {
+    text-align: end;
+    margin-right: 100px;
   }
 
 
