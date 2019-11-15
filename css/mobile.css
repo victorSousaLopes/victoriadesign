@@ -1,3 +1,22 @@
+/* nav */
+.nav-container {
+    width: 100%;
+}
+
+.brand {
+    width: 100%;
+    padding: 0;
+}
+
+.brand .title-brand {
+    margin: 10px 0 -16px 0 !important;
+}
+
+.brand h1 a {
+    margin: 0;
+    font-size: 3rem;
+}
+
 /* Menu */
 .list-menu {
     display: none;
@@ -11,4 +30,90 @@
 .header .header-info h3 {
     font-size: 15px !important;
     margin-top: 0 !important;
+}
+
+/* who */
+
+.whoweare .who-title h2 {
+    font-size: 4rem;
+}
+
+.whoweare .who-title {
+    margin: 10px 30px;
+}
+
+/* line */
+
+.showcase-line .showcase-info {
+    width: 100%;
+}
+
+.showcase-line { 
+    flex-direction: column;
+}
+
+.showcase-line .showcase-info p {
+    padding: 5px;
+}
+
+.showcase-line .showcase-info h3 { 
+    margin: 0;
+}
+
+.showcase-line .showcase-img { 
+    width: 100%;
+}
+
+.showcase-line .showcase-img img { 
+    margin: 0;
+}
+
+/* space */
+
+.space {
+    height: 50px;
+}
+
+/* COlors */
+.showcase-colors {
+    flex-direction: column;
+}
+
+.showcase-colors .showcase-img { 
+    width: 100%;
+}
+
+.showcase-colors .showcase-info { 
+    width: 100%;
+    padding: 1rem;
+}
+
+.showcase-colors .showcase-info h3 {
+    margin-top: 0;
+}
+
+.showcase-colors .showcase-info p {
+    padding: 5px;
+}
+
+/* services */
+
+.services .services-title {
+    margin: 10px;
+}
+
+.services-icons { 
+    flex-direction: column;
+}
+
+.services-icons .service-icon { 
+    width: 100%;
+}
+
+.services-icons .service-icon h2 { 
+    margin: 0;
+}
+
+.services-icons .service-icon > p { 
+    line-height: unset;
 }
