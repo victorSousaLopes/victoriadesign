@@ -1,3 +1,8 @@
+/* reset */
+p {
+    font-size: 14px !important;
+}
+
 /* nav */
 .nav-container {
     width: 100%;
@@ -110,10 +115,104 @@
     width: 100%;
 }
 
+.services .services-title .services-heading {
+    font-size: 4rem; 
+}
+
 .services-icons .service-icon h2 { 
     margin: 0;
 }
 
 .services-icons .service-icon > p { 
     line-height: unset;
+}
+
+/* Banner */
+.banner { 
+    flex-direction: column;
+    height: 100%;
+}
+
+.banner div.banner-info { 
+    width: 100%;
+}
+
+/* projects */
+.gallery-title {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.filter-button {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.filter-button:hover {
+    font-size: 11px;
+}
+
+.gallery {
+    margin-top: 10px !important;
+}
+
+/* contact */
+.contact {
+    padding: 10px;
+}
+
+.contact .contact-block .contact-text-info .contact-heading h1 {
+    font-size: 4rem;
+}
+
+.contact .contact-block .contact-text-info .contact-heading p { 
+    margin: 0;
+}
+
+.container-contact { 
+    flex-direction: column;
+}
+
+.contact .container .contact-info { 
+    width: 100%;
+    margin: 0;
+}
+
+/* address */
+.container-contact .contact-info .address .address-img {
+    width: 45px;
+    margin: 8px;
+}
+
+.container-contact .contact-info .address .address-img i {
+    font-size: 2rem;
+ }
+
+.container-contact .contact-info .address div > span {
+    font-size: 1.2rem;
+}
+
+/* email */
+.container-contact .contact-info .email div > span {
+    font-size: 1.4rem;
+}
+
+.contact .container .form { 
+    width: 100%;
+    margin: 0;
+}
+
+/* Footer */
+
+.footer .right-footer { 
+    margin: 0;
+}
+
+.footer .left-footer { 
+    width: 0;
+    padding: 0;
+}
+
+.footer .left-footer h4 {
+    margin: 0;
 }
