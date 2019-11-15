@@ -37,7 +37,7 @@ input.nostyle:focus {
 }
 
 body {
-    background: #fff;
+    background: rgb(250, 250, 250);
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -572,8 +572,9 @@ img {
   /* Contact */
   .contact {
     max-width: 100%;
-  background: rgb(250, 250, 250);
-  padding: 45px;
+    background: rgb(250, 250, 250);
+    padding: 45px;
+    margin-bottom: 20px;
   }
 
   .contact .contact-block {
@@ -816,15 +817,30 @@ img {
   }
 
   .footer .left-footer {
-    width: 400px;
+    width: 500px;
+  }
+
+  .footer .left-footer h1 {
+    font-family: 'Great Vibes', cursive;
+    color: var(--decoration-color);
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+
+  .footer .left-footer h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: -16px;
   }
 
   .footer .right-footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    justify-content: center;
-    align-items: center;
+    margin-left: 138px;
     color: #000;
   }
 
@@ -834,19 +850,20 @@ img {
     border: 10px solid #1ebea5;;
     margin: 10px;
     text-align: center;
+    background: #f4f4f4;
   }
 
   .footer .social-media i {
     margin: 5px;
+    cursor: pointer;
   }
 
   .footer .copy {
-    text-align: center;
+    margin-left: -34px;
   }
 
   .footer .dev {
-    text-align: end;
-    margin-right: 100px;
+    margin-left: 40px;
   }
 
 
