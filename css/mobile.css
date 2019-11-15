@@ -1,0 +1,14 @@
+/* Menu */
+.list-menu {
+    display: none;
+}
+
+.header .header-content {
+    width: 420px;
+    margin: 0;
+}
+
+.header .header-info h3 {
+    font-size: 15px !important;
+    margin-top: 0 !important;
+}

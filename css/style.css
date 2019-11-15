@@ -812,12 +812,14 @@ img {
   /* footer */
   .footer {
     width: 100%;
+    height: 145px;
     background: #ddd;
     display: flex;
   }
 
   .footer .left-footer {
     width: 500px;
+    padding: 20px;
   }
 
   .footer .left-footer h1 {
