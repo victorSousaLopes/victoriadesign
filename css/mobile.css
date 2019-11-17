@@ -110,6 +110,10 @@ p {
 
 /* services */
 
+.services-icons .service-icon .card {
+    margin-top: 20px;
+}
+
 .services-icons .service-icon .card .face.face1 img {
     height: 200px;
 }
@@ -124,6 +128,10 @@ p {
 
 .services-icons .service-icon { 
     width: 100%;
+}
+
+.services-icons .service-icon > p { 
+    margin: 0 0 36px;
 }
 
 .services .services-title .services-heading {
