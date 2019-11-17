@@ -144,6 +144,26 @@ p {
     width: 100%;
 }
 
+.banner .banner-info p { 
+    animation: none;
+    margin: auto;
+}
+
+.banner .display-contact .btn-contact { 
+    animation: none;
+    margin: auto;
+}
+
+.btn-contact { 
+    width: 100%;
+    height: 60px;
+}
+
+.banner .display-contact {
+    margin: 0;
+    width: 100%;
+}
+
 /* projects */
 .gallery-title {
     font-size: 4rem;
@@ -160,8 +180,12 @@ p {
 }
 
 .gallery {
-    margin-top: 10px !important;
+    margin-top: 25px !important;
 }
+
+.gallery_product .img-responsive {
+    border: 5px solid #fff;
+ }
 
 /* contact */
 .contact {
@@ -203,8 +227,27 @@ p {
 }
 
 /* email */
+
+.container-contact .contact-info .email .email-img {
+    width: 45px;
+}
+
+.container-contact .contact-info .email {
+    margin-left: 5px;
+}
+
 .container-contact .contact-info .email div > span {
     font-size: 1.4rem;
+}
+
+.container-contact .contact-info .email div {
+    margin-top: 7px;
+}
+
+/* assign */
+.container-contact .assign-text {
+    margin-left: 28px;
+    margin-top: 0px;
 }
 
 .contact .container .form { 
@@ -213,6 +256,10 @@ p {
     border-top: 5px solid var(--decoration-color);
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
+}
+
+.container-contact {
+    margin-top: 25px;
 }
 
 /* textarea */
