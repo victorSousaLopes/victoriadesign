@@ -1,3 +1,10 @@
+:root {
+    --decoration-color: #5c4688fa;
+    --color-hover: #1e1f80e6;
+    --btn-projects: #1e1f80e6;
+    --btn-bg-color: rgb(212, 50, 50);
+}
+
 /* reset */
 p {
     font-size: 14px !important;
@@ -176,6 +183,9 @@ p {
 .contact .container .contact-info { 
     width: 100%;
     margin: 0;
+    border-bottom: 5px solid var(--decoration-color);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 /* address */
@@ -199,7 +209,15 @@ p {
 
 .contact .container .form { 
     width: 100%;
-    margin: 0;
+    margin: 20px 0 0 0;
+    border-top: 5px solid var(--decoration-color);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+/* textarea */
+textarea {
+    font-size: 17px;
 }
 
 /* Footer */
@@ -243,4 +261,8 @@ p {
 .footer .dev {
     margin-left: -90px;
     margin-top: -4px;
+}
+
+.footer .dev a {
+    cursor: pointer;
 }
