@@ -110,6 +110,14 @@ p {
 
 /* services */
 
+/* home */
+.services-icons .service-icon .card .face.face2.home .content h3 {
+    top: 7px;
+    font-size: 20px;
+}
+
+
+/* corporation */
 .services-icons .service-icon .card {
     margin-top: 20px;
 }
