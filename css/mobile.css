@@ -110,6 +110,10 @@ p {
 
 /* services */
 
+.services-icons .service-icon .card .face.face1 img {
+    height: 200px;
+}
+
 .services .services-title {
     margin: 10px;
 }
@@ -133,6 +137,25 @@ p {
 .services-icons .service-icon > p { 
     line-height: unset;
 }
+
+.services-icons .service-icon .card .face {
+    width: 280px;
+    height: 155px;
+}
+
+.services-icons .service-icon .card .face {
+    width: 280px;
+    height: 145px;
+}
+
+.services-icons .service-icon .card .face.face2 h3 {
+    position: relative;
+    top: -22px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
 
 /* Banner */
 .banner { 
